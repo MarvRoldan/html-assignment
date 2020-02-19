@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Contact Page
+        </title>
+    </head>
+    <body>
+        <h1>
+            Contact Page
+        </h1>
+        <form action="submit.php" method="POST">
+            <label for="first-name"> 
+                First Name
+                <input type="text" name="first-name"
+                placeholder="Enter you first name">
+            </label>
+            <label for="last-name"> 
+                Last Name
+                <input type="text" name="last-name"
+                placeholder="Enter you last name">
+            </label>
+            <label for="your-email"> 
+                E-Mail
+                <input type="text" name="your e-email"
+                placeholder="Enter your e-mail">
+            </label>
+            <br>
+            <label for="subscribe"> 
+                Subscribe:
+                <input type="checkbox" name="subscribe">
+                I'd like to recieve e-mail newsletters and I have read the 
+                <a href="#">
+                    Terms of Service.
+                </a>
+            </label>
+            <br>
+            <label for="date-picker">
+                Pick a Date
+                </input type="date" id="date-picker" name="date-picker">
+            </label>
+            <br>
+            <label for="category">
+                Pick a Category
+                <select name="category">
+                    <option value="horror">Horror</option>
+                    <option value="documentary">Documentary</option>
+                    <option value="comedy">Comedy</option>
+                </select>
+            </label>
+            <label>
+                <input type="radio" name="time-of-day" value="mornng">
+                Morning
+            </label>
+            <label>
+                <input type="radio" name="time-of-day" value="afternoon">
+                Afternoon
+            </label>
+            <label>
+                <input type="radio" name="time-of-day" value="evening">
+                Evening
+            </label>
+            <br>
+            <input type="submit" value="Submit Form">
+        </form>
+    </body>
+</html>
