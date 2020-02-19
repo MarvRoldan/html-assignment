@@ -3,3 +3,11 @@ h1 {
 
     background: gray;
 }
+
+.main-article {
+    background: green;
+} /* Target a class by using an "." */
+
+#studio {
+    background: fuchsia;
+} /* Target an ID with "#" */
